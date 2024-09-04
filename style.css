@@ -1,0 +1,50 @@
+body{
+    width: 99%;
+    background-color: rgb(218, 69, 69);
+    display: flex;
+    justify-content: center;
+}
+.box{
+    width: 35%;
+    height: 600px;
+    background-color: aliceblue;
+    position: absolute;
+    top: 65px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.storybar{
+    width: 100%;
+    height: 20%;
+    background-color: brown;
+    border-bottom: 5px solid rgb(228, 148, 148);
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.storybar::-webkit-scrollbar{
+    display: none;
+}
+.story1{
+    width: 90px;
+    height: 90px;
+    background-color: bisque;
+    border-radius: 50%;
+    border: 5px solid red;
+    margin: 10px;
+    display: inline-block;
+    overflow: hidden;
+}
+.story1 img{
+    width: 90px;
+    height: 90px;
+}
+.fullbox{
+    height: 100%;
+    width: 100%;
+    background-color: blanchedalmond;
+    position: absolute;
+    display: none;
+    background-size: cover;
+    background-position: center;
+}
